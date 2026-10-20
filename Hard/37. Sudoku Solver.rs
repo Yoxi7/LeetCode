@@ -33,7 +33,7 @@ impl Solution {
             }
         }
         
-        // Проверка столбца
+        
         for i in 0..9 {
             if board[i][col] == ch {
                 return false;
